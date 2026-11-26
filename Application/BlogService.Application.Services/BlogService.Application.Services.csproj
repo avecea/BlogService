@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BlogService.Domain.Repositories.Abstractions\BlogService.Domain.Repositories.Abstractions.csproj" />
+    <ProjectReference Include="..\..\BlogService.Domain\BlogService.Domain.csproj" />
+    <ProjectReference Include="..\BlogService.Application.Models\BlogService.Application.Models.csproj" />
+  </ItemGroup>
+
+</Project>
